@@ -2,8 +2,8 @@ import streamlit as st
 from supabase import create_client
 
 # 1. TUS LLAVES (Copia y pega aquí lo de Supabase)
-URL_DE_SUPABASE = https://ckvhfbawbcmscrjpsdpa.supabase.co
-KEY_DE_SUPABASE = sb_publishable_iGxYeTG7SyG4LKBJW7XwlQ_tWFjiffs
+URL_DE_SUPABASE = "https://ckvhfbawbcmscrjpsdpa.supabase.co"
+KEY_DE_SUPABASE = "sb_publishable_iGxYeTG7SyG4LKBJW7XwlQ_tWFjiffs"
 
 # Conexión con el Cerebro (Base de Datos)
 try:
